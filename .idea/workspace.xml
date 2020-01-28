@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4718ace9-552e-4550-a8d6-3f2721d85465" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pingpong.py" beforeDir="false" afterPath="$PROJECT_DIR$/pingpong.py" afterDir="false" />
     </list>
@@ -71,6 +70,14 @@
       <option name="presentableId" value="Default" />
       <updated>1579534945865</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added coordinator and circle drawing">
+      <created>1579693392586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579693392587</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,5 +92,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added coordinator and circle drawing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added coordinator and circle drawing" />
   </component>
 </project>

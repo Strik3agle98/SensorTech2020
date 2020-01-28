@@ -30,6 +30,7 @@ while(1):
             color = (255,0,255)
             cv2.circle(frame, (int(centers[0]), int(centers[1])), int(radius), color, 2)
 
+
     print(frame.shape)
     frame = cv2.vconcat([frame, res])
     cv2.imshow('frame',frame)
