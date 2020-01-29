@@ -18,20 +18,29 @@ while(1):
     #mask = cv2.erode(mask, None, iterations=2)
     res = cv2.bitwise_and(frame,frame, mask= mask)
 
-    contours = cv2.findContours(mask.copy(), cv2.RETR_EXTERNAL,
-		cv2.CHAIN_APPROX_SIMPLE)
-    contours = imutils.grab_contours(contours)
+    circles = cv2.HoughCircles(mask, cv2.HOUGH_GRADIENT, 1, 200, param1=100, param2=1, minRadius=10)
+    if circles is not None:
+        print(circles)
+        for circle in circles:
+            x, y, radius = np.around(circle, decimals=1)[0]
+            if radius > 10:
+                color = (255,0,255)
+                cv2.circle(frame, (x, y), radius, color, 2)
 
-    if len(contours) > 0:
-        c = max(contours, key=cv2.contourArea)
-        contours_poly = cv2.approxPolyDP(c, 3, True)
-        centers, radius = cv2.minEnclosingCircle(contours_poly)
-        if radius > 10:
-            color = (255,0,255)
-            cv2.circle(frame, (int(centers[0]), int(centers[1])), int(radius), color, 2)
+    # contours = cv2.findContours(mask.copy(), cv2.RETR_EXTERNAL,
+	# 	cv2.CHAIN_APPROX_SIMPLE)
+    # contours = imutils.grab_contours(contours)
+    #
+    # if len(contours) > 0:
+    #     c = max(contours, key=cv2.contourArea)
+    #     contours_poly = cv2.approxPolyDP(c, 3, True)
+    #     centers, radius = cv2.minEnclosingCircle(contours_poly)
+    #     if radius > 10:
+    #         color = (255,0,255)
+    #         cv2.circle(frame, (int(centers[0]), int(centers[1])), int(radius), color, 2)
 
 
-    print(frame.shape)
+    # print(frame.shape)
     frame = cv2.vconcat([frame, res])
     cv2.imshow('frame',frame)
     #cv2.imshow('mask',mask)
