@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4718ace9-552e-4550-a8d6-3f2721d85465" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/centerColorDetect.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pingpong.py" beforeDir="false" afterPath="$PROJECT_DIR$/pingpong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SquareDetect.py" beforeDir="false" afterPath="$PROJECT_DIR$/SquareDetect.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580231829689</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Major Progress on square detector, added centerColorDetect">
+      <created>1580875450414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580875450414</updated>
+    </task>
+    <task id="LOCAL-00004" summary="finalize pingpong">
+      <created>1580875481566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580875481566</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +150,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added coordinator and circle drawing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added coordinator and circle drawing" />
+    <MESSAGE value="Major Progress on square detector, added centerColorDetect" />
+    <MESSAGE value="finalize pingpong" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalize pingpong" />
   </component>
 </project>

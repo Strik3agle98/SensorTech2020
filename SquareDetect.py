@@ -49,11 +49,13 @@ while(1):
                 contours_poly = cv2.approxPolyDP(c, 3, True)
                 rect = cv2.boundingRect(contours_poly)
                 cv2.rectangle(drawing, (int(rect[0]), int(rect[1])), \
-                              (int(rect[0] + rect[2]), int(rect[1] + rect[3])), (0, 255, 0), -1)
+                              (int(rect[0] + rect[2]), int(rect[1] + rect[3])), (int(e[2][0]), int(e[2][1]), int(e[2][2])), -1)
+                cv2.rectangle(hsv, (int(rect[0]), int(rect[1])), \
+                              (int(rect[0] + rect[2]), int(rect[1] + rect[3])),
+                              (int(e[2][0]), int(e[2][1]), int(e[2][2])), -1)
 
-
-
-
+    drawing = cv2.cvtColor(drawing, cv2.COLOR_HSV2BGR)
+    frame = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
     frame = cv2.vconcat([frame, drawing])
     cv2.imshow('frame',frame)
     if cv2.waitKey(1) & 0xFF == 32:
