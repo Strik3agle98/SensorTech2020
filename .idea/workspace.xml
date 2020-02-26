@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4718ace9-552e-4550-a8d6-3f2721d85465" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BGRNormalizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Camera.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SquareDetect static.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SquareDetectCanny.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SquareDetectCannyNorm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D reconstruction/axisRender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3D reconstruction/originRender.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SquareDetect.py" beforeDir="false" afterPath="$PROJECT_DIR$/SquareDetect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/centerColorDetect.py" beforeDir="false" afterPath="$PROJECT_DIR$/centerColorDetect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/Camera.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +26,11 @@
   <component name="ProjectId" id="1WfJvN0GeJwejyzYfibF2rLTHcW" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3D reconstruction" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Strik3agle\Documents\SensorTech\3D reconstruction" />
       <recent name="C:\Users\Strik3agle\Documents\SensorTech" />
     </key>
   </component>
@@ -49,8 +46,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SquareDetectCannyNorm">
-    <configuration name="BGRNormalizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.axisRender">
+    <configuration name="Camera" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sensor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -62,49 +59,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BGRNormalizer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SquareDetect" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Sensor" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SquareDetect.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SquareDetectCanny" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Sensor" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SquareDetectCanny.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Camera.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,6 +89,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="axisRender" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Sensor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3D reconstruction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3D reconstruction/axisRender.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cameraCalibration" type="PythonConfigurationType" factoryName="Python">
+      <module name="Sensor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\ProgramData\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3D reconstruction" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3D reconstruction/cameraCalibration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="centerColorDetect" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Sensor" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,13 +152,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in cameraCalibration.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Sensor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3D reconstruction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.cameraCalibration" />
+      <item itemvalue="Python.Camera" />
+      <item itemvalue="Python.centerColorDetect" />
+      <item itemvalue="Python.SquareDetectCannyNorm" />
+      <item itemvalue="Python tests.pytest in cameraCalibration.py" />
+      <item itemvalue="Python.axisRender" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.axisRender" />
+        <item itemvalue="Python tests.pytest in cameraCalibration.py" />
+        <item itemvalue="Python.Camera" />
         <item itemvalue="Python.SquareDetectCannyNorm" />
         <item itemvalue="Python.centerColorDetect" />
-        <item itemvalue="Python.BGRNormalizer" />
-        <item itemvalue="Python.SquareDetectCanny" />
-        <item itemvalue="Python.SquareDetect" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580875957973</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="done square">
+      <created>1581496522084</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581496522084</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +259,7 @@
     <MESSAGE value="Major Progress on square detector, added centerColorDetect" />
     <MESSAGE value="finalize pingpong" />
     <MESSAGE value="square initial deliverable" />
-    <option name="LAST_COMMIT_MESSAGE" value="square initial deliverable" />
+    <MESSAGE value="done square" />
+    <option name="LAST_COMMIT_MESSAGE" value="done square" />
   </component>
 </project>
