@@ -1,5 +1,5 @@
-def icp(a, b,
-        max_time = 1
+def icp(a, b, Tr,
+        max_time = 4
     ):
     import cv2
     import numpy
@@ -73,9 +73,9 @@ def icp(a, b,
     init_pose = (0,0,0)
     src = numpy.array([a.T], copy=True).astype(numpy.float32)
     dst = numpy.array([b.T], copy=True).astype(numpy.float32)
-    Tr = numpy.array([[numpy.cos(init_pose[2]),-numpy.sin(init_pose[2]),init_pose[0]],
-                   [numpy.sin(init_pose[2]), numpy.cos(init_pose[2]),init_pose[1]],
-                   [0,                    0,                   1          ]])
+    # Tr = numpy.array([[numpy.cos(init_pose[2]),-numpy.sin(init_pose[2]),init_pose[0]],
+    #                [numpy.sin(init_pose[2]), numpy.cos(init_pose[2]),init_pose[1]],
+    #                [0,                    0,                   1          ]])
     # print("src",numpy.shape(src))
     # print("Tr[0:2]",numpy.shape(Tr[0:2]))
     src = cv2.transform(src, Tr[0:2])
